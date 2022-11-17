@@ -1,0 +1,6 @@
+FROM python:3.10
+COPY . /rf_app/.
+WORKDIR /rf_app
+RUN pip install -r requirements.txt
+ENTRYPOINT ["python"]
+CMD ["run.py"]
