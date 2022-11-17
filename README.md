@@ -6,8 +6,8 @@ The ML model was trained and fitted using the data located at https://archive.ic
 # Getting Started
 
 - Python 3.10 required
-- Create virtual environment python -m venv poc-env 
-- Activate virtual environment .\poc-env\Scripts\activate
+- Create virtual environment python -m venv poc-venv 
+- Activate virtual environment .\poc-venv\Scripts\activate
 - Install dependencies via requirementes.txt file (pip install -r requirements.txt )
 
 
